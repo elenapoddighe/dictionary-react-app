@@ -10,7 +10,7 @@ export default function App() {
             className="text-center
           "
           >
-            Welcome to Elena's dictionary app
+            🤓 Welcome to Elena's dictionary📚
           </h1>
         </header>
         <main>
@@ -18,7 +18,31 @@ export default function App() {
         </main>
         <footer>
           <small>
-            Coded by Elena Poddighe, open-source on GitHub and hosted on Netlify
+            Coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/elena-poddighe-736276104/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Elena Poddighe
+            </a>
+            ,{" "}
+            <a
+              href="https://github.com/elenapoddighe/dictionary-react-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-source
+            </a>{" "}
+            on GitHub and{" "}
+            <a
+              href="https://elenas-dictionary-react-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted
+            </a>{" "}
+            on Netlify
           </small>
         </footer>
       </div>

@@ -24,13 +24,20 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="serach"
-          placeholder="Type your word"
-          onChange={handleKeywordChange}
-        />
-      </form>
+      <section>
+        <h1>⌨️ Start discovering 📖</h1>
+        <form onSubmit={search}>
+          <input
+            type="serach"
+            placeholder="Type your word here 🔍"
+            onChange={handleKeywordChange}
+          />
+        </form>
+        <div className="hint">
+          Suggested words: flight, moon, power, jogging, weather...
+        </div>
+      </section>
+
       <Results results={results} />
     </div>
   );
